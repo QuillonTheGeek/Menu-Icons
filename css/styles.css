@@ -1,0 +1,95 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family:'Concert One', cursive;
+    font-size: .8rem;
+    background: #f5f5f5;
+    height: 100%;
+}
+.menu{
+    background: #2a2138;
+    padding: .5rem 0;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul {
+    list-style: none;
+    line-height: 1.5rem; 
+    padding-left: 0;
+}
+.menu li {
+    padding: .5rem;
+}
+.menu li:hover, .menu .active {
+    background: #221a2e;
+    color: #fff;
+  }
+.menu .fa {
+    margin-right: .5rem;
+    width: 3rem;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-size: 1.2rem;
+}
+.form-control{
+    border: 1px solid #ced4da;
+    outline: 0;
+    transition: border .15s, box-shadow .15s;
+}
+.form-control:focus{
+    border: .5px solid #86b7fe;
+    box-shadow: 0 0 0 2px #b9d3fa;
+}
+.form-control, .btn-control {
+    max-width: 300px;
+    margin: .3rem;
+    box-sizing: border-box;
+    outline: 0;
+    border-radius: 5px;
+    padding: .3rem;
+}
+form .btn-control {
+    background: #0d6efd;
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    padding: .3rem;
+    width: 100px;
+}
+.btn-control:hover {
+    background: #0759d3;
+}
+.checker {
+    color: #6c757d;
+}
+@media screen and (min-width: 576px) {
+    .menu {
+        width: 20%;
+        height: 100vh;
+        float: left;
+
+    }
+    .form-control, .btn-control {
+        width: 500px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: .7rem 2rem;
+    }
+    h1 {
+        margin-top: 6rem;
+    }
+    
+    
+}
